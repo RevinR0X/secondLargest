@@ -1,0 +1,12 @@
+To find second largest number
+
+Algorithm
+
+1. Prompt the user to enter the number of elements in the array.
+2. Create an empty array to store the elements.
+3. Ask the user to input each element and store them in the array.
+4. Set two variables, max and second_max, to the first and second element of the array.
+5. Iterate through the array, starting from the third element.
+6. If the current element is greater than the current value of max, set second_max to the current value of max, and max to the current element.
+7. If the current element is greater than the current value of second_max but less than the current value of max, set second_max to the current element.
+8. After iterating through the entire array, output the value of second_max as the second largest number in the array.
